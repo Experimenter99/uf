@@ -14,8 +14,8 @@ jobs:
       - name: update respository content
         run: |
           git status
-          git config --global user.email "m_github@0x26.net"
-          git config --global user.name "Masen Furer's action"
+          git config --global user.email "randomtest@git.com"
+          git config --global user.name "Experimenter99"
           git add .
           git commit -m "Auto update output filter lists"
           git push 
